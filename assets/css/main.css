@@ -1,0 +1,12 @@
+body { 
+    padding-top: 65px; 
+}
+
+article {
+    padding-bottom: 50px;
+}
+
+footer {
+    padding-top: 65px;
+    border-top: 1px solid #666;
+}
