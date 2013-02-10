@@ -8,6 +8,9 @@
       <div class="row">
         <div class="span8">
             {{ content }}
+            <div class="meta">
+                Posted on <a href="{{ page.url }}">{{ page.date | date_to_string }}</a>
+            </div>
         </div>
       </div>
   </article>
