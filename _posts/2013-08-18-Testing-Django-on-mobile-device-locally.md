@@ -38,7 +38,7 @@ This starts the dev server running on localhost port 8000.  However, if you try 
 $ python manage.py runserver 192.168.0.5:8000
 {% endhighlight %}
 
-This will make the dev server accessible to your local network.
+This will make the dev server accessible to your local network by.
 
 ## Step 4: Access site on mobile browser
 
