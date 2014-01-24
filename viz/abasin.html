@@ -195,7 +195,7 @@ title: Arapahoe Basin Slopes Vizualized in D3.js
     .attr("text-anchor", "end")
     .attr("x", width)
     .attr("y", height - 6)
-    .text("Distance (ft)");
+    .text("Distance (m)");
 
   svg.append("text")
     .attr("class", "y label")
@@ -203,7 +203,7 @@ title: Arapahoe Basin Slopes Vizualized in D3.js
     .attr("y", 6)
     .attr("dy", ".75em")
     .attr("transform", "rotate(-90)")
-    .text("Elevation (ft)");
+    .text("Elevation (m)");
 
   var trails = svg.append("g")
     .attr("class", "trails")
@@ -262,7 +262,7 @@ title: Arapahoe Basin Slopes Vizualized in D3.js
 
     circle.attr("transform", "translate(" + x(d.segment) + "," + y(d.elevation) + ")");
     circle.select("text").text(d.name + 
-      "(" + d.elevation.toFixed(0) + " ft, " + d.slope.toFixed(2) + "\u00B0)");
+      "(" + d.elevation.toFixed(0) + " m, " + d.slope.toFixed(2) + "\u00B0)");
   }
 
   function mouseout(d) {
