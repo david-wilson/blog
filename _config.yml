@@ -1,5 +1,5 @@
 auto: true
-pygments: true
+highlighter: rouge
 markdown: rdiscount
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title.html
 rdiscount extensions: [smart]
